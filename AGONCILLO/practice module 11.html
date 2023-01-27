@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Registration Form</title>
+	<style type="text/css">
+		body{background-image: url(https://i.pinimg.com/564x/32/f0/c5/32f0c5f82be998b4189b7b9dc87916c9.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;}
+	</style>
+</head>
+<body>
+<form action="/action_page.php"></form><br>
+	<h2>Student Registration Form</h2>
+	<br>
+<div class="div1">
+	<label for="First Name">First Name:</label>
+	<input type="Text" name="First Name" value=""><br>
+	<br>
+	<label for="Last Name">Last Name:</label>
+	<input type="Text" name="Last Name" value=""><br>
+</div>
+	<br>
+<div class="div2">
+	<label for="Birthday">Birthday:</label>
+	<input type="date" name="Birthday" value=""><br>
+</div>
+	<br>
+<div class="div3">
+	<label for="rate">Gender:</label>
+	<input type="radio" name="rate" value="Male">Male
+	<input type="radio" name="rate" value="Female">Female<br>
+</div>
+	<br>
+<div class="div4">
+	<label for="subject(s)">Choose your subject(s):</label>
+	<select id="subject(s)">
+		<option value="subject(s)">0 select</option>
+		<option value="Math">Math</option>
+		<option value="Math">Science</option>
+		<option value="Science">ESP</option>
+		<option value="Mapeh">Mapeh</option>
+		<option value="TLE">TLE</option>
+		<option value="AP">AP</option>
+		<option value="Math">English</option>
+		<option value="Math">Filipino</option>
+	</select><br>
+</div>
+	<br>
+<div class="div5">
+	<label for="Section">Select your Section:</label>
+	<input list="Section" value="1 Alpha">
+	<datalist id="Section">
+		<option value="Felipe Agoncillo">Felipe Agoncillo</option>
+		<option value="Fernando Ma Guerrero">Fernando Ma Guerrero</option>
+		<option value="Gil Puyat">Gil Puyat</option>
+		<option value="Lakandula">Lakandula</option>
+		<option value="LapuLapu">LapuLapu</option>
+	</datalist><br>
+</div>
+	<br>
+<div class="div6">
+	<label for="rate">What Extracurricular Activities do you want?</label><br>
+	<input type="checkbox" name="rate" value="Basketball">Basketball
+	<input type="checkbox" name="rate" value="Chess">Chess
+	<input type="checkbox" name="rate" value="Music">Music<br>
+	<input type="checkbox" name="rate" value="Volleyball">Volleyball
+	<input type="checkbox" name="rate" value="Poetry">Poetry
+	<input type="checkbox" name="rate" value="Acting">Acting<br>
+</div>
+	<br>
+<div class="div7">
+	<label for="Comments">Comments:</label><br>
+</div>
+<div class="div8">
+	<textarea cols="45" rows="5" name="Comments"></textarea><br>
+</div>
+	<input type="Reset" value="Reset">
+	<input type="Submit" value="Submit"><br>
+	<br>
+</body>
+</html>
